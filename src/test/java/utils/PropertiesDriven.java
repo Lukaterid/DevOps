@@ -10,7 +10,7 @@ public class PropertiesDriven {
 
     public static String getProperty(String key){
         props = new Properties();
-        String rutaFile = System.getProperty("user.dir")+"\\src\\test\\resources\\properties.properties";
+        String rutaFile = System.getProperty("user.dir")+"/src/test/resources/properties.properties";
 
         try {
             InputStream input = new FileInputStream(rutaFile);
